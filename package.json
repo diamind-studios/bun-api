@@ -1,0 +1,19 @@
+{
+  "version": "0.1",
+  "name": "bible-api",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  },
+  "dependencies": {
+    "@kakengloh/bagel": "^0.2.2",
+    "@types/cors": "^2.8.13",
+    "cors": "^2.8.5",
+    "helmet": "^6.0.1",
+    "prettier": "^2.8.1"
+  }
+}
