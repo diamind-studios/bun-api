@@ -18,6 +18,8 @@ To run:
 bun start
 ```
 
+The server runs on port 3001
+
 ## Endpoints
 
 **/source** - provides a list of source texts
