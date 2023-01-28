@@ -4,7 +4,7 @@ import { config } from './config';
 
 export const queryBuilder = (filters: Filters) => `
 select 
-  id,
+  source_id,
   name,
   full_name,
   "language"
