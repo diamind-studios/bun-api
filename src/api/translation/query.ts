@@ -4,11 +4,11 @@ import { config } from './config';
 
 export const queryBuilder = (filters: Filters) => `
 select 
-  id,
+translation_id,
   name,
   full_name
 from ${config.table_name} t
 where 
   ${filtersToWhereClause(filters)}
-order by id
+order by translation_id
 ;`;

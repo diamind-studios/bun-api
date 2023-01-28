@@ -11,5 +11,5 @@ select
 from ${config.table_name} s
 where 
   ${filtersToWhereClause(filters)}
-order by id
+order by source_id
 ;`;
