@@ -11,8 +11,6 @@ select
   words_id,
   parsing_id
 from ${config.table_name} s
-inner join sources sc
-  on sc.source_id = s.source_id
 inner join books b
   on b.id = s.book
 inner join verses v on 

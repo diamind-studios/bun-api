@@ -9,8 +9,6 @@ select
   t.translation_id,
   t.book
 from ${config.table_name} t
-inner join translations tr
-  on tr.translation_id = t.translation_id
 inner join books b
   on b.id = t.book
 inner join verses v on 
