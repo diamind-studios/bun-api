@@ -9,7 +9,8 @@ select
   transliteration,
   word_number,
   words_id,
-  parsing_id
+  parsing_id,
+  punctuation
 from ${config.table_name} s
 inner join books b
   on b.id = s.book
